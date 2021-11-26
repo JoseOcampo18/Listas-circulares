@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rutas de camión</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Tarea 10 - Listas circulares</h1>
+        </div>
+
+        <form>
+            <div class="left">
+                <h2>Administrar bases</h2>
+
+            <div class="content-info">
+                <label>Nombre:</label>
+                <input id="textName" type="text">
+            <div>
+                <label>Minutos:</label>
+                <input id="numberMinutes" type="number" >
+            </div>
+            <br>
+                <input id="btnAdd" type="button" value="Agregar">
+                <input id="btnDelete" type="button" value="Eliminar">
+                <input id="btnList" type="button" value="Listar">
+                <br>
+                <br>
+            <h2>Crear tarjeta</h2>
+            <div>
+                <label>Base inicial:</label>
+                <input id="textBase" type="text">
+            </div>
+            <div>
+                <label>Hora de inicio:</label>
+                <input id="numberTime" type="number">
+            </div>
+            <div>
+                <label>Tiempo de recorrido:</label>
+                <input id="numberDuration" type="number">
+            </div>
+            <br>
+            <div>
+                <input id="btnCard" type="button" value="Crear tarjeta">
+            </div>
+            </div>
+            
+        </div>
+        </form>
+        <h2>Movimientos:</h2>
+        <div id="detail"></div>
+
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
